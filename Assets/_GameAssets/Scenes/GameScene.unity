@@ -997,6 +997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _orientitionTransform: {fileID: 21150666}
   _movementSpeed: 15
+  _movementKey: 101
   _jumpKey: 32
   _jumpForce: 8
   _jumpCooldown: 1
@@ -1005,6 +1006,10 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  _groundDrag: 3
+  _slideKey: 113
+  _slideMultiplier: 2
+  _slideDrag: 1.5
 --- !u!4 &95144174007299744
 Transform:
   m_ObjectHideFlags: 0
