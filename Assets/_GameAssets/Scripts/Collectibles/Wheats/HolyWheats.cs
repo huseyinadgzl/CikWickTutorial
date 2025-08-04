@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HolyWheats : MonoBehaviour
+public class HolyWheats : MonoBehaviour , ICollectible
 {
     [SerializeField] private PlayerController _playerController;
 
