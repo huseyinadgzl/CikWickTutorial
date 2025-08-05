@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a282ae31db58f741a62580b0298da49, type: 3}
   m_Name: HolyWheat
   m_EditorClassIdentifier: 
-  _increaseDecreaseMultiplier: 15
+  _increaseDecreaseMultiplier: 8
   _resetBoostDuration: 5

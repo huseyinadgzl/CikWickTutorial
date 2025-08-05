@@ -180,6 +180,11 @@ public class PlayerController : MonoBehaviour
     private void ResetJumpForce()
     {
         _jumpForce = _startingJumpForce;
+    }
+
+    public Rigidbody GetPlayerRigidbody()
+    {
+        return _playerRigidbody;
      }
      #endregion
 }
