@@ -12,6 +12,7 @@ public class PlayerInteractionController : MonoBehaviour
         if (other.gameObject.TryGetComponent<ICollectible>(out var collectible))
         {
             collectible.Collect();
+            
         }
     }
         private void OnCollisionEnter(Collision other) {
