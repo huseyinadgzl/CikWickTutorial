@@ -19,13 +19,13 @@ public class LosePopup : MonoBehaviour
         _tryAgainButton.onClick.AddListener(OnTryAgainButtonClicked);
          _mainMenuButton.onClick.AddListener(() =>
         {
-             TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
+             TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
         });
     }
 
     private void OnTryAgainButtonClicked()
     {
-       TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
+       TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
 
 }
