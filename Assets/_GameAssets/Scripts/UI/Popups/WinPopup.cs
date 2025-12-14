@@ -13,13 +13,17 @@ public class WinPopup : MonoBehaviour
     [SerializeField] private TMP_Text _timerText;
 
     void OnEnable()
-    {
+    { 
+        AudioManager.Instance.Play(SoundType.WinSound);
+          BackgroundMusic.Instance.PlayBackgroundMusic(false);
+
         _timerText.text = _timerUI.GetFinalTime();
 
         _oneMoreButton.onClick.AddListener(OnOneMoreButtonClicked);
 
         _mainMenuButton.onClick.AddListener(() =>
         {
+            AudioManager.Instance.Play(SoundType.TransitionSound);
              TransitionManager.Instance.LoadLevel(Consts.SceneNames.MENU_SCENE);
         })
         ;
@@ -27,6 +31,7 @@ public class WinPopup : MonoBehaviour
 
     private void OnOneMoreButtonClicked()
     {
+        AudioManager.Instance.Play(SoundType.TransitionSound);
         TransitionManager.Instance.LoadLevel(Consts.SceneNames.GAME_SCENE);
     }
 }
