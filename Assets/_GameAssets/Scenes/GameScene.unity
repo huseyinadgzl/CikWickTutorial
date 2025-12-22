@@ -296,6 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59394715}
   - component: {fileID: 59394718}
+  - component: {fileID: 59394719}
   - component: {fileID: 59394717}
   - component: {fileID: 59394716}
   m_Layer: 5
@@ -407,6 +408,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59394714}
   m_CullTransparentMesh: 1
+--- !u!114 &59394719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59394714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &74478820 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1113355007174657454, guid: 69ef6ec9a0720ab4181a382ad028a657, type: 3}
@@ -480,6 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99092344}
   - component: {fileID: 99092347}
+  - component: {fileID: 99092349}
   - component: {fileID: 99092346}
   - component: {fileID: 99092345}
   - component: {fileID: 99092348}
@@ -613,6 +627,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &99092349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99092343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &108301108 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2329371156774284768, guid: 7f23a0ac8b4307e49b24f553fb8ea8ff, type: 3}
@@ -704,6 +730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 195321284}
   - component: {fileID: 195321287}
+  - component: {fileID: 195321289}
   - component: {fileID: 195321286}
   - component: {fileID: 195321285}
   - component: {fileID: 195321288}
@@ -837,6 +864,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &195321289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195321283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &197387612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5964403965682725542, guid: 69ef6ec9a0720ab4181a382ad028a657, type: 3}
@@ -1722,6 +1761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 341288010}
   - component: {fileID: 341288013}
+  - component: {fileID: 341288014}
   - component: {fileID: 341288012}
   - component: {fileID: 341288011}
   m_Layer: 5
@@ -1833,6 +1873,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341288009}
   m_CullTransparentMesh: 1
+--- !u!114 &341288014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341288009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &358721995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,6 +2557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 604217082}
   - component: {fileID: 604217085}
+  - component: {fileID: 604217086}
   - component: {fileID: 604217084}
   - component: {fileID: 604217083}
   m_Layer: 5
@@ -2616,6 +2669,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604217081}
   m_CullTransparentMesh: 1
+--- !u!114 &604217086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604217081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &606624107
 GameObject:
   m_ObjectHideFlags: 0
@@ -3085,6 +3150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765974461}
   - component: {fileID: 765974464}
+  - component: {fileID: 765974465}
   - component: {fileID: 765974463}
   - component: {fileID: 765974462}
   m_Layer: 5
@@ -3196,6 +3262,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765974460}
   m_CullTransparentMesh: 1
+--- !u!114 &765974465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765974460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &783425983
 GameObject:
   m_ObjectHideFlags: 0
@@ -3628,6 +3706,10 @@ MonoBehaviour:
   _soundButton: {fileID: 1514762722}
   _resumeButton: {fileID: 1267260476}
   _mainMenuButton: {fileID: 1354831837}
+  _musicActiveSprite: {fileID: 21300000, guid: 572d015c0604b0b49b09265a1072b1d4, type: 3}
+  _musicPassiveSprite: {fileID: 21300000, guid: 5f1b2ea972b168448b4c057a28eb7f2a, type: 3}
+  _soundActiveSprite: {fileID: 21300000, guid: b70c31f4b7494cf40ad2dfcb839120cf, type: 3}
+  _soundPassiveSprite: {fileID: 21300000, guid: 11231ee54f9eb5948b175a2a69b0d050, type: 3}
   _animationDuration: 0.3
 --- !u!1 &891404030 stripped
 GameObject:
@@ -5318,6 +5400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267260475}
   - component: {fileID: 1267260478}
+  - component: {fileID: 1267260480}
   - component: {fileID: 1267260477}
   - component: {fileID: 1267260476}
   - component: {fileID: 1267260479}
@@ -5452,6 +5535,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1267260480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267260474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1275359038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7272111311578086291, guid: 69ef6ec9a0720ab4181a382ad028a657, type: 3}
@@ -5899,6 +5994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1354831836}
   - component: {fileID: 1354831839}
+  - component: {fileID: 1354831841}
   - component: {fileID: 1354831838}
   - component: {fileID: 1354831837}
   - component: {fileID: 1354831840}
@@ -6033,6 +6129,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1354831841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354831835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1360452291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6579,6 +6687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514762721}
   - component: {fileID: 1514762724}
+  - component: {fileID: 1514762726}
   - component: {fileID: 1514762723}
   - component: {fileID: 1514762722}
   - component: {fileID: 1514762725}
@@ -6712,6 +6821,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1514762726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514762720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94e400894b7ff64ba071ee3ee374aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1524397702
 GameObject:
   m_ObjectHideFlags: 0
